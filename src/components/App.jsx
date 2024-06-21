@@ -4,13 +4,13 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        justifyContent: 'flex-start',
+        fontSize: 32,
+        color: '#010101',
+        margin: 100,
       }}
     >
-      React homework template
+      Rent-a-Camper
     </div>
   );
 };
