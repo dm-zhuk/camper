@@ -1,3 +1,8 @@
+// +--temp--+
+import styles from './AdvertFilter/index.module.scss';
+import sprite from '../img/sprite.svg';
+// +--temp--+
+
 export const App = () => {
   return (
     <div
