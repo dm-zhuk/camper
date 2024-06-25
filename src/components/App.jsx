@@ -1,21 +1,12 @@
 // +--temp--+
-import styles from './AdvertFilter/index.module.scss';
-import sprite from '../img/sprite.svg';
+import AdvertFilter from './AdvertFilter/AdvertFilter';
 // +--temp--+
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'flex-start',
-        fontSize: 32,
-        color: '#010101',
-        margin: 100,
-      }}
-    >
+    <div>
       Rent-a-Camper
+      <AdvertFilter />
     </div>
   );
 };
